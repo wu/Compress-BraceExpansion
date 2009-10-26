@@ -1,5 +1,11 @@
 Revision history for Compress-BraceExpansion
 
+0.1.6 Mon Oct 26, 2009  6:14 pm
+
+    - just dusting off this module, no significant changes
+      - using Dist::Zilla
+      - moving to github
+
 0.1.4 Mon Sep  3, 2007  9:41 pm
 
     - fixed bug with strings ending in 0

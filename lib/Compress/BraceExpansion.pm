@@ -5,7 +5,7 @@ use strict;
 
 use Data::Dumper;
 
-use version; our $VERSION = qv('0.1.5');
+our $VERSION;
 
 use Class::Std::Utils;
 {
@@ -355,8 +355,7 @@ __END__
 
 =head1 NAME
 
-Compress::BraceExpansion - create a human-readable compressed string
-suitable for shell brace expansion.
+Compress::BraceExpansion - create a human-readable compressed string suitable for shell brace expansion
 
 
 =head1 VERSION
