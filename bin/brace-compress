@@ -1,6 +1,8 @@
 #!/usr/bin/perl -w
 use strict;
 
+our $VERSION;
+
 use Compress::BraceExpansion;
 use Data::Dumper;
 

@@ -1,5 +1,10 @@
 Revision history for Compress-BraceExpansion
 
+0.1.7 Sun Nov  1, 2009  4:26 pm
+
+    - minor tweaks to automated test cases
+    - very minor doc tweaks
+
 0.1.6 Mon Oct 26, 2009  6:14 pm
 
     - just dusting off this module, no significant changes
