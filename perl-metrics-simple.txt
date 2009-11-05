@@ -1,0 +1,50 @@
+
+Perl files found:                1
+
+Counts
+------
+total code lines:        238
+lines of non-sub code:   15
+packages found:          1
+subs/methods:            12
+
+Subroutine/Method Size
+----------------------
+min:                  4 lines
+max:                  52 lines
+mean:                 18.58 lines
+std. deviation:       14.09
+median:               18.00
+
+McCabe Complexity
+-----------------
+Code not in any subroutine::
+min:                  1
+max                   1
+mean:                 1.00
+std. deviation:       0.00
+median:               1.00
+
+Subroutines/Methods:
+min:                  1
+max:                  20
+mean:                 5.92
+std. deviation:       5.25
+median:               5.00
+
+Tab-delimited list of subroutines, with most complex at top
+-----------------------------------------------------------
+complexity	sub	path	size
+20	_print_tree_recurse	lib/Compress/BraceExpansion.pm	52
+10	_merge_tree_recurse	lib/Compress/BraceExpansion.pm	24
+10	_transplant	lib/Compress/BraceExpansion.pm	35
+7	new	lib/Compress/BraceExpansion.pm	19
+6	shrink	lib/Compress/BraceExpansion.pm	29
+5	_build_tree	lib/Compress/BraceExpansion.pm	17
+5	_check_merge_point	lib/Compress/BraceExpansion.pm	19
+3	_check_array_values_equal	lib/Compress/BraceExpansion.pm	8
+2	_get_pointers	lib/Compress/BraceExpansion.pm	7
+1	_get_root	lib/Compress/BraceExpansion.pm	4
+1	_get_new_pointer_id	lib/Compress/BraceExpansion.pm	5
+1	enable_debug	lib/Compress/BraceExpansion.pm	4
+1	{code not in named subroutines}	lib/Compress/BraceExpansion.pm	15

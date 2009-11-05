@@ -1,0 +1,38 @@
+Deleting database /Users/wu/projects/Compress-BraceExpansion/Compress-BraceExpansion-0.1.7/cover_db
+cp lib/Compress/BraceExpansion.pm blib/lib/Compress/BraceExpansion.pm
+cp bin/trie-compress.pl blib/script/trie-compress.pl
+/usr/local/bin/perl -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/trie-compress.pl
+cp bin/brace-compress-tester.pl blib/script/brace-compress-tester.pl
+/usr/local/bin/perl -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/brace-compress-tester.pl
+cp bin/brace-compress blib/script/brace-compress
+/usr/local/bin/perl -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/brace-compress
+PERL_DL_NONLAZY=1 /usr/local/bin/perl "-MExtUtils::Command::MM" "-e" "test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00.load.t ............... ok
+t/02.compress.t ........... ok
+t/03.build_tree.t ......... ok
+t/04.merge_tree.t ......... ok
+t/05.check_merge_point.t .. ok
+t/06.transplant.t ......... ok
+t/07.print_tree.t ......... ok
+t/critic.t ................ skipped: Author tests not required for installation
+t/kwalitee.t .............. skipped: Author tests not required for installation
+t/meta.t .................. skipped: Author tests not required for installation
+t/no_tabs.t ............... skipped: Author tests not required for installation
+t/release-pod-coverage.t .. skipped: these tests are for release candidate testing
+t/release-pod-syntax.t .... skipped: these tests are for release candidate testing
+All tests successful.
+Files=13, Tests=107, 10 wallclock secs ( 0.06 usr  0.05 sys +  9.26 cusr  0.44 csys =  9.81 CPU)
+Result: PASS
+Reading database from /Users/wu/projects/Compress-BraceExpansion/Compress-BraceExpansion-0.1.7/cover_db
+
+
+---------------------------- ------ ------ ------ ------ ------ ------ ------
+File                           stmt   bran   cond    sub    pod   time  total
+---------------------------- ------ ------ ------ ------ ------ ------ ------
+...ompress/BraceExpansion.pm   89.8   81.6   54.5   87.5  100.0  100.0   86.2
+Total                          89.8   81.6   54.5   87.5  100.0  100.0   86.2
+---------------------------- ------ ------ ------ ------ ------ ------ ------
+
+
+Writing HTML output to /Users/wu/projects/Compress-BraceExpansion/Compress-BraceExpansion-0.1.7/cover_db/coverage.html ...
+done.
